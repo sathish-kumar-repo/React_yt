@@ -1,0 +1,19 @@
+ul {
+  border: 2px solid burlywood;
+  padding: 20px 30px;
+  border-radius: 20px;
+
+  li {
+    list-style-type: none;
+    margin-bottom: 10px;
+
+    button {
+      margin-left: 20px;
+      border: none;
+      background-color: orangered;
+      color: #fff;
+      padding: 5px;
+      border-radius: 5px;
+    }
+  }
+}

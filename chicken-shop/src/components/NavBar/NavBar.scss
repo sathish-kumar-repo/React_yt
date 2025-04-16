@@ -1,0 +1,79 @@
+@use "../../scss/abstracts/variables/" as *;
+
+.nav-btn svg {
+  fill: $clr-primary;
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  cursor: pointer;
+  //   height: 32px;
+  //   width: 32px;
+}
+
+.navbar {
+  position: fixed;
+  background-color: rgba($color: #000000, $alpha: 0.9);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  h3 {
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: transparent;
+    background-image: linear-gradient(180deg, $clr-primary 25%, $clr-secondary);
+    background-clip: text;
+    // margin-bottom: 1rem;
+  }
+  .navbar-header {
+    position: relative;
+
+    img {
+      width: 100px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.nav-close {
+  position: absolute;
+  right: 0;
+  top: 5px;
+
+  svg {
+    cursor: pointer;
+    fill: $clr-dark;
+    transition: $transition;
+  }
+
+  &:hover svg {
+    fill: $clr-white;
+  }
+}
+
+.nav-items {
+  list-style-type: none;
+}
+
+.nav-link {
+  display: block;
+  color: $clr-white;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 0.75rem 1rem;
+  letter-spacing: 0.5px;
+  transition: $transition;
+
+  &:hover {
+    background-color: $clr-primary-light;
+    padding-left: 1.5rem;
+    border-left: 0.5rem solid $clr-secondary;
+  }
+}
+
+@media screen and (min-width: 769px) {
+}

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.advice-app {
+  color: #fff;
+  text-align: center;
+}
+.advice-app h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.advice-app button {
+  border: none;
+  padding: 10px 20px;
+  background-color: yellow;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+
+.advice-app p {
+  margin-top: 20px;
+}
+.advice-app p b {
+  color: aqua;
+}
